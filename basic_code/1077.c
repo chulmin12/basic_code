@@ -2,12 +2,9 @@
 #include <stdio.h>
 
 int main() {
-	int a;
-	zero:
+	int a=0;
 	scanf("%d",&a);
-	if (a != 0) {
-		printf("%d\n", a);
-		goto zero;
+	for (int i = 0; i <= a; i++){
+		printf("%d\n", i);
 	}
-		
 }

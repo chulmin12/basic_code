@@ -3,11 +3,11 @@
 
 int main() {
 	int a;
-	zero:
+	aa:
 	scanf("%d",&a);
 	if (a != 0) {
 		printf("%d\n", a);
-		goto zero;
+		goto aa;
 	}
-		
+	
 }
